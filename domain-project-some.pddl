@@ -40,10 +40,7 @@
             )
             ; But they might also tell us the restaurant, or not
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
         )
@@ -68,18 +65,12 @@
             )
             ; But they might also tell us the location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or budget, or not
             (oneof
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
         )
@@ -104,26 +95,17 @@
             )
             ; But they might also tell us the restaurant, or not...
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
             ; ... or location, or not
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or budget, or not
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
         )
@@ -148,10 +130,7 @@
             )
             ; But they might also tell us the food restriction(s), or not
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
         )
@@ -176,10 +155,7 @@
             )
             ; But they might also tell us the allergy(s), or not
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
         )
@@ -204,18 +180,12 @@
             )
             ; But they might also tell us the outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or conflict, or not
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
         )
@@ -240,18 +210,12 @@
             )
             ; But they might also tell us the conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or budget, or not
             (oneof
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
         )
@@ -276,18 +240,12 @@
             )
             ; But they might also tell us the budget, or not...
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or outing type, or not
             (oneof
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
         )
@@ -312,26 +270,17 @@
             )
             ; But they might also tell us the location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or budget, or not
             (oneof
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
         )

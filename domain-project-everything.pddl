@@ -40,66 +40,42 @@
             )
             ; But they might also tell us the phone number, or not...
             (oneof 
-                (when 
-                    (not (know-phone-number))
-                    (know-phone-number)
-                )
+                (know-phone-number)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof 
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or allergy(s), or not...
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
             ; ... or food restriction(s), or not...
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
             ; ... or budget, or not...
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or restaurant, or not
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
         )
@@ -124,66 +100,42 @@
             )
             ; But they might also tell us the location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or budget, or not...
             (oneof
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or restaurant, or not...
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof 
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or allergy(s), or not...
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
             ; ... or food restriction(s), or not
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
         )
@@ -208,66 +160,42 @@
             )
             ; But they might also tell us the phone number, or not...
             (oneof 
-                (when 
-                    (not (know-phone-number))
-                    (know-phone-number)
-                )
+                (know-phone-number)
                 (and)
             )
             ; ... or location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or allergy(s), or not...
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
             ; ... or food restriction(s), or not...
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
             ; ... or budget, or not...
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or restaurant, or not
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
     )
@@ -291,66 +219,42 @@
             )
             ; But they might also tell us the phone number, or not...
             (oneof 
-                (when 
-                    (not (know-phone-number))
-                    (know-phone-number)
-                )
+                (know-phone-number)
                 (and)
             )
             ; ... or location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof 
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or food restriction(s), or not...
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
             ; ... or budget, or not...
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or restaurant, or not
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
         )
@@ -375,66 +279,42 @@
             )
              ; But they might also tell us the phone number, or not...
             (oneof 
-                (when 
-                    (not (know-phone-number))
-                    (know-phone-number)
-                )
+                (know-phone-number)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof 
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or allergy(s), or not...
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
             ; ... or location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or budget, or not...
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or restaurant, or not
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
         )
@@ -459,66 +339,42 @@
             )
             ; But they might also tell us the phone number, or not...
             (oneof 
-                (when 
-                    (not (know-phone-number))
-                    (know-phone-number)
-                )
+                (know-phone-number)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof 
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or allergy(s), or not...
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
             ; ... or food restriction(s), or not...
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
             ; ... or location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-loocation)
-                )
+                (know-loocation)
                 (and)
             )
             ; ... or outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or restaurant, or not
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
         )
@@ -543,66 +399,42 @@
             )
              ; But they might also tell us the phone number, or not...
             (oneof 
-                (when 
-                    (not (know-phone-number))
-                    (know-phone-number)
-                )
+                (know-phone-number)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof 
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or allergy(s), or not...
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
             ; ... or food restriction(s), or not...
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
             ; ... or budget, or not...
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or restaurant, or not
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
         )
@@ -627,66 +459,42 @@
             )
              ; But they might also tell us the phone number, or not...
             (oneof 
-                (when 
-                    (not (know-phone-number))
-                    (know-phone-number)
-                )
+                (know-phone-number)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof 
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or allergy(s), or not...
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
             ; ... or food restriction(s), or not...
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
             ; ... or budget, or not...
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or location, or not...
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
             ; ... or restaurant, or not
             (oneof 
-                (when 
-                    (not (know-restaurant))
-                    (know-restaurant)
-                )
+                (know-restaurant)
                 (and)
             )
         )
@@ -711,66 +519,42 @@
             )
              ; But they might also tell us the phone number, or not...
             (oneof 
-                (when 
-                    (not (know-phone-number))
-                    (know-phone-number)
-                )
+                (know-phone-number)
                 (and)
             )
             ; ... or cuisine, or not...
             (oneof 
-                (when 
-                    (not (know-cuisine))
-                    (know-cuisine)
-                )
+                (know-cuisine)
                 (and)
             )
             ; ... or allergy(s), or not...
             (oneof 
-                (when 
-                    (not (know-have-allergy))
-                    (know-have-allergy)
-                )
+                (know-have-allergy)
                 (and)
             )
             ; ... or food restriction(s), or not...
             (oneof 
-                (when 
-                    (not (know-food-restriction))
-                    (know-food-restriction)
-                )
+                (know-food-restriction)
                 (and)
             )
             ; ... or budget, or not...
             (oneof 
-                (when 
-                    (not (know-budget))
-                    (know-budget)
-                )
+                (know-budget)
                 (and)
             )
             ; ... or outing type, or not...
             (oneof 
-                (when 
-                    (not (know-outing-type))
-                    (know-outing-type)
-                )
+                (know-outing-type)
                 (and)
             )
             ; ... or conflict, or not...
             (oneof 
-                (when 
-                    (not (know-conflict))
-                    (know-conflict)
-                )
+                (know-conflict)
                 (and)
             )
             ; ... or location, or not
             (oneof 
-                (when 
-                    (not (know-location))
-                    (know-location)
-                )
+                (know-location)
                 (and)
             )
         )
