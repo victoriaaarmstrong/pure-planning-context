@@ -26,3 +26,9 @@ Requirements: cisc813 standard docker image
 To run: 
 
          prppp <domain.pddl> <problem.pddl> --output-format <1, 2, or 3>
+
+To toggle on and off allowing the human user to change/update the info they've provided:
+
+ 1. domain-basic.pddl: comment out lines 71 & 78
+ 2. domain-some.pddl: comment out lines 84 & 91
+ 3. domain-everything.pddl: comment out lines 78 & 85
