@@ -1,8 +1,20 @@
 # Evaluating a Pure Planning Approach to User Provided Context
-Modelling additional user context and how PRP fails to handle this for CISC 813 Course Project
+Modelling additional user context and quantifiying if and how PRP++ to handle this for CISC 813 Course Project
 
-This repo contains 4 files:
- - *domain-project-basic.pddl* specifies the most basic non-deterministic setting. Either the user is going to give us the direct information we query or they won't provide any information. There is no notion of additional context and this serves as the base case. 
- - *domain-project-everything.pddl* specifies the most extreme non-deterministic setting. For every query to the user, they could provide any predicate(s) as additional context.
- - *domain-project-some.pddl* specifies a middle group, where users could add some related additional context, however they are restricted to on-topic predicates. For example, when asked for allergies, they could also provide food restricitons as this is topical, but wouldn't provide any budget information since this is off-topic.
- - *project-problem.pddl* contains the initialization specifications for all domain files. The goal is simple - the goal predicate must be satisfied. Goal satisfaction is explicit in each domain file. 
+This repo contains:
+ - a *domain folder* with 3 domain files for basic, some, and everything in terms of the amount of context allowed. 
+ - a *problem folder* with 8 problem files for varying levels of context.
+
+This summarizes the different domain and problem file combinations for different levels of additional user context. This table can also be found in the Evaluation section of the report 
+
+| Amount of Context |          Domain        |     Problem    |
+| ----------------- | ---------------------- | -------------- |
+| (0) None          | domain-basic.pddl      | problem-0.pddl |
+| l level           | domain-some.pddl       | problem-1.pddl |
+| 2 levels          | domain-some.pddl       | problem-2.pddl |
+| 3 levels          | domain-some.pddl       | problem-3.pddl |
+| 4 levels          | domain-some.pddl       | problem-4.pddl |
+| 5 levels          | domain-some.pddl       | problem-5.pddl |
+| 6 levels          | domain-some.pddl       | problem-6.pddl |
+| 7 levels          | domain-some.pddl       | problem-7.pddl |
+| (8) All           | domain-everything.pddl | problem-0.pddl |
