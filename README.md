@@ -1,5 +1,5 @@
 # Evaluating a Pure Planning Approach to User Provided Context
-Modelling additional user context and quantifiying if and how PRP++ to handle this for CISC 813 Course Project
+Modelling additional user context and quantifiying if and how PRP++ to handle this for CISC 813 Course Project.
 
 This repo contains:
  - a *domain folder* with 3 domain files for basic, some, and everything in terms of the amount of context allowed. 
@@ -18,3 +18,11 @@ This summarizes the different domain and problem file combinations for different
 | 6 levels          | domain-some.pddl       | problem-6.pddl |
 | 7 levels          | domain-some.pddl       | problem-7.pddl |
 | (8) All           | domain-everything.pddl | problem-0.pddl |
+
+# Run Instructions
+
+Requirements: cisc813 standard docker image
+
+To run: 
+
+         prppp <domain.pddl> <problem.pddl> --output-format <1, 2, or 3>
