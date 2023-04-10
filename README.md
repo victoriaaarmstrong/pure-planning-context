@@ -4,6 +4,7 @@ Modelling additional user context and quantifiying if and how PRP++ to handle th
 This repo contains:
  - a *domain folder* with 3 domain files for basic, some, and everything in terms of the amount of context allowed. 
  - a *problem folder* with 8 problem files for varying levels of context.
+ - a *original files folder* with the domain files before lifting, these are not for use in running the experiments, but rather to show the evolution of the model over time (in case you were at all curious). 
  - the final PDF report
 
 This summarizes the different domain and problem file combinations for different levels of additional user context. This table can also be found in the Evaluation section of the report 
